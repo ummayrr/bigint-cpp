@@ -15,4 +15,4 @@ BigInt is a C++ library for performing arithmetic operations on large integers t
 
 Include the `BigInt.h` file in your project and create `BigInt` objects. A sample main.cpp is included to test the functionality and showcases how to use the library.
 
-### One of the major constraints of this project was to utilize only <string> library, <cstdlib> is used for generating random numbers, it can be removed along with the random function if not required.
+### One of the major constraints of this project was to utilize only string library, cstdlib is used for generating random numbers, it can be removed along with the random function if not required.
