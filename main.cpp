@@ -45,5 +45,13 @@ cout << "Greater than: " << (a > b) << endl;
 cout << "Less than or equal to: " << (a <= b) << endl;
 cout << "Greater than or equal to: " << (a >= b) << endl;
 
+//random number generation
+
+BigInt start("10000000000000000000");
+BigInt end("20000000000000000000");
+BigInt randomNum = a.random(start, end);
+cout << "Random number between " << start << " and " << end << ": " << randomNum << endl;
+
+  
 return 0;
 }
